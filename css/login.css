@@ -1,0 +1,78 @@
+.container{
+    background: url('../peaceimage//backgroundoflogin.jpg') no-repeat center center fixed ;
+    background-size: cover;
+}
+
+div.loginHeader{
+    text-align: center;
+}
+
+div.loginHeader{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+div.loginHeader h1{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(235, 224, 163);
+    padding: 0px;
+    margin: 0px;
+}
+div.loginHeader p{
+    color:aqua;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+
+}
+div.loginHeader p:after{
+    content:'';
+    display: block;
+    height: 3px;
+    background-color: aqua;
+    width: 55%;
+    margin: 0 auto;
+}
+div.loginBody form{
+    margin: 0 auto;
+    width: 450px;
+    background-color:rgba(0, 0, 0, 0.493) ;
+    padding:50px;
+    border: 2px solid rgb(136, 205, 228);
+    border-radius: 20px;
+}
+div.logInput{
+    margin-top: 30px ;
+}
+div.logInput label{
+    display: bllock;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+div.logInput input{
+    height: 25px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+
+}
+div.loginButton{
+    margin-top: 30px;
+    text-align: center;
+}
+div.loginButton button{
+    font-size: 30;
+    padding: 15px 50px;
+    background-color: aqua;
+    border: none;
+    color: black ;
+
+}
